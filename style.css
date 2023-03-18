@@ -1,0 +1,102 @@
+.container{
+    background-color: black;
+    /* display: flex; */
+    padding: 10px 20px;
+}
+.nav{
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.btn{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    row-gap: 10px;
+}
+
+
+.left{
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: start;
+    align-items: flex-start;
+}
+.right{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.fa-solid{
+background-color: yellow;
+color: black;
+border-radius: 50%;
+padding: 10px;
+font-size: 16px;
+}
+.fa-sharp fa-solid fa-clock{
+    background-color: yellow;
+color: black;
+border-radius: 50%;
+padding: 1px;
+font-size: 30px !important;
+/* width: 50%; */
+height: 50%;
+}
+.categories{
+   
+    font-family: 'Poppins';
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    width: 500px;
+    justify-content: space-between;
+
+}
+.categories > div{
+   
+  /* align-items: center; */
+    font-family: 'Poppins';
+    font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+width: 283px;
+height: 270px;
+border: 1px solid rgb(59, 57, 57);
+padding: 10px;
+
+margin: 30px;
+
+}
+h1, h3, p{
+    color: white;
+    font-family: 'Poppins';
+
+}
+
+.footer{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    border: 1px solid rgb(23, 22, 22);
+    border-radius: 15px;
+    background-color: rgb(43, 39, 39);
+
+}
+.footer > div{
+    width: 283px;
+
+}
+ul{
+    list-style-type: none;
+    color: white;
+    width: 283px;
+
+}
